@@ -27,10 +27,13 @@ def extract_text(pdf_file):
     return text
 
 def get_skills(text):
-    skills_list = ["python", "machine learning", "nlp", "tensorflow", "pytorch", 
-                   "scikit-learn", "data analysis", "sql", "pandas", 
-                   "numpy", "spacy", "keras", "statistics"]
-
+    skills_list = [
+    "python", "machine learning", "deep learning", "nlp",
+    "tensorflow", "pytorch", "scikit-learn", "data analysis",
+    "sql", "pandas", "numpy", "spacy", "keras", "statistics",
+    "excel", "power bi", "tableau", "aws", "azure",
+    "java", "c++", "communication", "git"
+]
     text_lower = text.lower()
     found_skills = []
 
